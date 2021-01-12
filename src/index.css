@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  overflow: hidden;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 10px solid seagreen;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cart-holder{
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.shopping-cart-counter{
+  color: #fff;
+  padding-right: 5px;
+}
+
+.hero-image{
+  background: url("./media/hero.jpg");
+  height: 400px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.catalog-title{
+  color: #fff;
+  font-weight: 700;
+  font-size: 76px;
+  letter-spacing: 10px;
+  text-transform: lowercase;
+}
+
+.input-group {
+  max-width: 300px;
+  margin: auto;
+}
+
+.input-group button {
+  border-color: #ced4da;
+}
+
+input.form-control:focus, input.form-control:active{
+  box-shadow: none;
+  border-color: #ced4da;
+}
