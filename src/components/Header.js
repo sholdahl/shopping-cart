@@ -2,7 +2,7 @@ import React from "react";
 import { BagFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
-const Header = ({ title }) => {
+const Header = ({ title, cart }) => {
   return (
     <div className="row no-gutters">
       <div className="col-12">
@@ -31,7 +31,7 @@ const Header = ({ title }) => {
               </div>
             </div>
             <div className="cart-holder">
-              <span className="shopping-cart-counter">10</span>
+              <span className="shopping-cart-counter">{cart}</span>
               <BagFill color="#fff" size={20} />
             </div>
           </nav>

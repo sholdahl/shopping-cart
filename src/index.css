@@ -48,8 +48,9 @@ body {
 }
 
 .input-group {
-  max-width: 300px;
+  max-width: 250px;
   margin: auto;
+  margin-left: 0;
 }
 
 .input-group button {
@@ -59,4 +60,8 @@ body {
 input.form-control:focus, input.form-control:active{
   box-shadow: none;
   border-color: #ced4da;
+}
+
+.card{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
